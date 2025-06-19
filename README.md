@@ -12,4 +12,4 @@ This is the full PaySurity monorepo, including the marketing site, legal documen
 1. Review and replace placeholder legal docs in `legal/`.
 2. Rename and move images under `public/assets/images/` as needed.
 3. Add module-specific apps under `apps/` (e.g., `super-admin`, `merchant`, `pos`).
-4. Initialize Git and push to GitHub, then connect to Vercel for deployment. 
+4. Initialize Git and push to GitHub, then connect to Vercel for deployment.   
