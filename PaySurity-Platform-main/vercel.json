@@ -1,12 +1,16 @@
+// vercel.json
 {
   "version": 2,
   "builds": [
     {
+      // for PaySurity-Platform:
       "src": "apps/marketing/package.json",
       "use": "@vercel/next"
     }
+    // for SuperAdmin it would be:
+    // { "src": "apps/super-admin/package.json", "use": "@vercel/next" }
   ],
-  "rootDirectory": "apps/marketing",
+  "rootDirectory": "apps/marketing",           // tells Vercel where to run the build
   "env": {
     "NEXT_PUBLIC_SUPABASE_URL": "@supabase_url",
     "NEXT_PUBLIC_SUPABASE_ANON_KEY": "@supabase_anon_key"
